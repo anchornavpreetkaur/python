@@ -1,5 +1,29 @@
 print('Hello, world!')
 
 
+user = input('nav: ')
+print("Nice to meet you, " + user + "!")
+
+first = -9
+second = 12_456_123_180
+third = 4.973
+fourth = -4 + 2j
+
+print(first)
+print(second)
+print(third)
+print(fourth)
+print(fourth.real)
+print(fourth.imag)
+
+fahrenheit_str = input("102: ")
+fahrenheit = float(fahrenheit_str)
+celsius = (fahrenheit-32)*5/9
+print("The temperature in Celsius: " + str(celsius))
+
+
+
+
+
 
 
